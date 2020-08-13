@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:background="@android:color/darker_gray"
+    android:clipToPadding="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:scrollbarStyle="outsideOverlay">
+    <FrameLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/region_frame">
+        <TextView
+            android:id="@+id/region_name"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+    </FrameLayout>
+</LinearLayout>
